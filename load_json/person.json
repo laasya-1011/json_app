@@ -1,0 +1,23 @@
+[
+    {
+        "name" : "vyshuu" ,
+        "age" : "19" ,
+        "height" : 159 ,
+        "gender" :"female",
+        "hair_color" : "black"
+    },
+    {
+        "name" : "anvi" ,
+        "age" : "19" ,
+        "height" : 160 ,
+        "gender" :"female",
+        "hair_color" : "black"
+    },
+    {
+        "name" : "reetu" ,
+        "age" : "19" ,
+        "height" : 165 ,
+        "gender" :"female",
+        "hair_color" : "black"
+    }
+]
