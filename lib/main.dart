@@ -27,7 +27,7 @@ class HomePageState extends State<HomePage> {
               future: DefaultAssetBundle.of(context)
                   .loadString('load_json/person.json'),
               builder: (context, snapshot) {
-                var mydata = JSON.decode(snapshot.data.toString());
+                var mydata = jsonDecode(snapshot.data.toString());
                 return ListView.builder(
                   itemBuilder: (BuildContext context, int index) {
                     return Card(
